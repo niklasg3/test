@@ -99,7 +99,7 @@ void draw() {
             blue += blue(video.pixels[index]);
           }
         }
-        downPix[boxNum] =  color(red/tot, green/tot, blue/tot);
+        downPix[boxNum] =  green/tot;
         // downPix[boxNum] = color((float)red/tot, (float)green/tot, (float)blue/tot);
         fill(downPix[boxNum]);
 
